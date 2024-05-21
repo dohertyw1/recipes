@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* * {
+    color: green;
+    background-color: red;
+  }
+   */
+  /* p {
+    color: red;
+  } */
+
+  .alert-text {
+    color: blue;
+  }
+
+  #title {
+    background-color: red;
+  }
+
+  p {
+    /* hex example: */
+    color: #1100ff;
+    font-family: "Calibri";
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  img {
+    height: auto;
+    width: 500px;
+  }
+  
+  div {
+    color: white;
+    background-color: limegreen;
+  }
