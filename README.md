@@ -1,3 +1,3 @@
 # recipes
 
-Hello Odin!
+Updated readme
