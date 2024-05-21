@@ -10,11 +10,18 @@
   } */
 
   .alert-text {
-    color: blue;
+    color: red;
   }
 
   #title {
     background-color: red;
+  }
+
+  #under-dev {
+    font-weight: 700;
+    text-align: center;
+    color: red;
+    font-size: 36px;
   }
 
   p {
@@ -28,10 +35,16 @@
 
   img {
     height: auto;
-    width: 500px;
+    width: 150px;
   }
   
-  div {
+  /* div {
     color: white;
     background-color: limegreen;
+  } */
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
