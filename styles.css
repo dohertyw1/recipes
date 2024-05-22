@@ -16,6 +16,10 @@ img {
     width: 150px;
   }
 
+.im-border{
+  border: 3px solid darkred;
+}
+
 #images{
   text-align:center;
 }
