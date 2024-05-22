@@ -1,52 +1,20 @@
-/* styles.css */
-
-/* * {
-    color: green;
-    background-color: red;
-  }
-   */
-  /* p {
-    color: red;
-  } */
-
-  .alert-text {
-    color: red;
-  }
-
-  #title {
-    background-color: red;
-  }
-
-  #under-dev {
+#under-dev {
     font-weight: 700;
     text-align: center;
     font-size: 36px;
   }
 
-  p {
-    /* hex example: */
-    color: #1100ff;
-    font-family: "Calibri";
-    font-size: 22px;
-    font-weight: 700;
-    text-align: center;
+p {
+    font-family: "Arial";
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
   }
 
-  img {
+img {
     height: auto;
     width: 150px;
   }
-  
-  /* div {
-    color: white;
-    background-color: limegreen;
-  } */
-
-  .center {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #images{
   text-align:center;
@@ -54,4 +22,43 @@
 
 .yellow {
   color: rgb(235, 235, 59)
+}
+
+* {
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rosybrown;
+}
+
+#pic-of-me {
+  display: block;
+  margin: 10px;
+  margin-left: auto;
+}
+
+/* #bordered {
+  border: 1px solid red;
+} */
+
+#title {
+  text-align: center;
+}
+
+h2 {
+  color: darkred;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 5px solid blue;
+  background-color: orange;
 }
