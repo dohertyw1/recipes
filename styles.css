@@ -34,7 +34,7 @@ img {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rosybrown;
+  background-color: whitesmoke;
 }
 
 #pic-of-me {
@@ -59,13 +59,13 @@ h2 {
   outline: 1px solid red;
 } */
 
-/* .container {
-  width: 1000px;
+.container {
+  width: 700px;
   margin: 20px auto;
   padding: 10px;
-  border: 5px solid blue;
-  background-color: orange;
-} */
+  /* border: 5px solid blue; */
+  /* background-color: orange; */
+}
 
 #bar {
   font-size: 24px;
@@ -119,4 +119,5 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   color: white;
+  margin-left: 5px;
 }
