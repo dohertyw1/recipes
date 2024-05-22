@@ -39,8 +39,8 @@ body {
 
 #pic-of-me {
   display: block;
-  margin: 10px;
-  margin-left: auto;
+  /* margin: 10px;
+  margin-left: auto; */
 }
 
 /* #bordered {
@@ -48,7 +48,7 @@ body {
 } */
 
 #title {
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -59,10 +59,64 @@ h2 {
   outline: 1px solid red;
 } */
 
-.container {
-  width: 700px;
+/* .container {
+  width: 1000px;
   margin: 20px auto;
   padding: 10px;
   border: 5px solid blue;
   background-color: orange;
+} */
+
+#bar {
+  font-size: 24px;
+  background-color: brown;
+  padding: 1px 1px 1px 10px;
+}
+
+.box {
+  width: 350px;
+  height: 25px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid black;
+}
+
+
+.flex-container {
+  background-color: rgb(41, 41, 112);
+  display: flex;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+ background: peachpuff;
+ /* border: 1px solid brown; */
+ margin: 5px;
+ height: 50px;
+ flex: 1;
+}
+
+.nav-element {
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-right: 2px;
+  margin-top: 5px;
+  color: white;
+}
+
+.nav-element-home {
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  color: white;
+
+}
+
+.nav-name {
+  /* border: 1px solid black; */
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
 }
