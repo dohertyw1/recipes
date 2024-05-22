@@ -4,120 +4,99 @@
     font-size: 36px;
   }
 
-p {
-    font-family: "Arial";
-    font-size: 12px;
-    font-weight: 400;
-    text-align: left;
-  }
-
 img {
     height: auto;
     width: 150px;
   }
 
 .im-border{
-  border: 3px solid darkred;
+  border: 2px solid darkred;
 }
 
 #images{
   text-align:center;
 }
 
-.yellow {
-  color: rgb(235, 235, 59)
-}
-
-* {
-  line-height: 1.5;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: whitesmoke;
+  background-color: beige;
+  line-height: 1.5;
 }
-
-#pic-of-me {
-  display: block;
-  /* margin: 10px;
-  margin-left: auto; */
-}
-
-/* #bordered {
-  border: 1px solid red;
-} */
-
-#title {
-  text-align: left;
-}
-
-h2 {
-  color: darkred;
-}
-
-/* * {
-  outline: 1px solid red;
-} */
 
 .container {
   width: 700px;
   margin: 20px auto;
   padding: 10px;
+  border: 3px solid darkred
   /* border: 5px solid blue; */
   /* background-color: orange; */
 }
 
-#bar {
-  font-size: 24px;
-  background-color: brown;
-  padding: 1px 1px 1px 10px;
-}
-
-.box {
-  width: 350px;
-  height: 25px;
-  margin: 10px;
-  padding: 25px;
-  border: 5px solid black;
-}
-
-
 .flex-container {
   background-color: rgb(41, 41, 112);
   display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
 }
 
-/* this selector selects all divs inside of .flex-container */
-.flex-container div {
- background: peachpuff;
- /* border: 1px solid brown; */
- margin: 5px;
- height: 50px;
- flex: 1;
-}
-
-.nav-element {
-  /* border: 1px solid black; */
-  padding: 5px;
-  margin-right: 2px;
-  margin-top: 5px;
+.flex-container a {
   color: white;
+  padding: 5px;
+  /* border: 1px solid brown; */
 }
 
-.nav-element-home {
-  /* border: 1px solid black; */
-  padding: 5px;
-  margin-top: 5px;
-  margin-left: auto;
-  color: white;
-
+.flex-container a.nav-element-home,
+.flex-container a.nav-element {
+  font-size: 18px;
 }
 
-.nav-name {
-  /* border: 1px solid black; */
-  padding: 5px;
-  font-size: 24px;
+.nav-element-name {
+  font-size: 32px;
   font-weight: 700;
   color: white;
   margin-left: 5px;
+}
+
+.nav-element-home {
+  margin-left: auto;
+}
+
+.nav-element {
+  margin-right: 2px;
+}
+
+
+
+
+
+.flex-containerr {
+  display: flex;
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-containerr div {
+  /* background: peachpuff;
+  border: 1px solid brown; */
+  height: 300px;
+  flex: 1 1 0%;
+  
+}
+
+.flex-containerr .one {
+  flex: 4 1 0%;
+}
+
+.flex-containerr .two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mee {
+  width: 200px;
+  height: auto;
+  border: 3px solid darkred;
 }
